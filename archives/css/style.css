@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Library3am';
+    src: url(/archives/css/Library\ 3\ am.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Library3amSoft';
+    src: url(/archives/css/Library\ 3\ am\ soft.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0D0000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .topbar{
+    display: flex;
+    justify-content: ss;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(#000, #00000023);
+}
+
+header a{
+    text-decoration: none;
+}
+
+header .topbar .logo {
+    display: flex;
+}
+
+header .topbar .logo img{
+    padding: 10px;
+    height: 45px;
+    border-radius: 0 0 50px 50px;
+}
+
+header .topbar .logo h1{
+    color: #F2E2CE;
+    padding-top: 15px;
+    font-family: 'Library3amSoft', sans-serif;
+    font-weight: 100;
+    font-size: 20pt;
+}
+
+header .topbar .logo #mars{
+    color: #401713;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    font-size: 24pt;
+    padding-left: 5px;
+    transform: translateY(-2px);
+}
+
+header .topbar .menu{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+header .topbar .menu nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header .topbar .menu nav ul li{
+    margin: 10px;
+}
+
+header .topbar .menu nav ul li a{
+    color: #F2E2CE;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    transition: 0.2s;
+}
+
+header .topbar .menu a:hover{
+    color: #401713;
+}
+
+header .topbar #button{
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 6px 9px;
+    border: 2px solid #F2E2CE;
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    color: #F2E2CE;
+    transition: 0.2s;
+}
+
+header .topbar #button:hover{
+    color: #401713;
+    border-color: #401713;
+}
+
+main #card-profile{
+    background-image: url(/archives/images/bg-cardprofile.png);
+    background-size: contain;
+    height: 500px;
+    width: 400px;
+}
